@@ -49,13 +49,14 @@ a {
 }
 
 .navbar .welcomeSection {
-  display: flex;
-  justify-content: space-around;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 40px;
 }
 
 .navbar .searchBox {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .navbar .welcomeSection .welcomeText {
@@ -76,13 +77,20 @@ a {
 
 .search {
   width: 360px;
+  color: #00000059;
   height: 50px;
   top: 87px;
   left: 25px;
   gap: 0px;
   opacity: 0px;
-  border: 2px solid black;
-  border-radius: 5px;
+  border: 1px solid #00000059;
+  border-radius: 10px;
+  font-family: Syne;
+font-size: 8px;
+font-weight: 500;
+line-height: 9.6px;
+text-align: left;
+
 }
 
 input[type='text'] {
@@ -106,6 +114,7 @@ input[type='text'] {
 }
 
 .menu {
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
 }
@@ -262,7 +271,7 @@ line-height: 13.2px;
   }
 
   .search {
-    margin-left: 50px;
+    margin-left: 40px;
     width: 160px;
     height: 21px;
     top: 87px;
