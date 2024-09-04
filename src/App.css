@@ -265,7 +265,7 @@ line-height: 13.2px;
 
 }
 
-@media (max-width: 748px) {
+@media (max-width: 390px) {
   .navbar {
     height: max-content;
   }
