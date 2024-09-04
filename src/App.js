@@ -11,6 +11,19 @@ const App = () => {
   const [isLoading, setIsLoading] = useState(true)
   const [query, setQuery] = useState('')
 
+  // useEffect(() => {
+  //   const fetchItems = async () => {
+  //     setIsLoading(true)
+  //     const content = ["Somnia, 2010","Solar Serenity, 2022","The Shipwrecked, 2013","Mirage, 2022"];
+  //     setItems(content.map(()=>{
+
+  //     }))
+  //     setIsLoading(false)
+  //   }
+
+  //   fetchItems()
+  // }, [query])
+
   useEffect(() => {
     setIsLoading(true)
     setTimeout(() => {
@@ -29,6 +42,7 @@ const App = () => {
           <SubMenu />
         </div>
         <Grid isLoading={isLoading} />
+        {/* <Grid isLoading={isLoading} items={items}/> */}
       </div>
       <Footer />
     </>
