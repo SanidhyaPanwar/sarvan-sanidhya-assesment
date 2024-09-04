@@ -7,9 +7,9 @@ import Menu from './components/ui/Menu'
 import SubMenu from './components/ui/SubMenu'
 
 const App = () => {
-  const [items, setItems] = useState([])
+  // const [items, setItems] = useState([])
   const [isLoading, setIsLoading] = useState(true)
-  const [query, setQuery] = useState('')
+  // const [query, setQuery] = useState('')
 
   // useEffect(() => {
   //   const fetchItems = async () => {
