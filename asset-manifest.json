@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/sarvan-sanidhya-assesment/static/css/main.10857d1e.css",
+    "main.css": "/sarvan-sanidhya-assesment/static/css/main.3d1f1d90.css",
     "main.js": "/sarvan-sanidhya-assesment/static/js/main.0ebe1e26.js",
     "static/media/artwork_1.png": "/sarvan-sanidhya-assesment/static/media/artwork_1.32dd6613ace04431c22e.png",
     "static/media/artwork_3.png": "/sarvan-sanidhya-assesment/static/media/artwork_3.69f7613a5e96a1e7885b.png",
@@ -9,11 +9,11 @@
     "static/media/artwork_2.png": "/sarvan-sanidhya-assesment/static/media/artwork_2.a6c331990eba76001396.png",
     "static/media/send_a_message.svg": "/sarvan-sanidhya-assesment/static/media/send_a_message.3d310e58e1e9b9a224ab73aacef0fb14.svg",
     "index.html": "/sarvan-sanidhya-assesment/index.html",
-    "main.10857d1e.css.map": "/sarvan-sanidhya-assesment/static/css/main.10857d1e.css.map",
+    "main.3d1f1d90.css.map": "/sarvan-sanidhya-assesment/static/css/main.3d1f1d90.css.map",
     "main.0ebe1e26.js.map": "/sarvan-sanidhya-assesment/static/js/main.0ebe1e26.js.map"
   },
   "entrypoints": [
-    "static/css/main.10857d1e.css",
+    "static/css/main.3d1f1d90.css",
     "static/js/main.0ebe1e26.js"
   ]
 }
