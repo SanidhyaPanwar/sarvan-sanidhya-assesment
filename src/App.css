@@ -518,5 +518,11 @@ input[type='text'] {
     top: 242px;
     left: 555px;
   }
-  
+ 
+  .innerFooter{
+    top : 510px;
+  }
+  .outerFooter{
+    top:520px;
+  }
 }
