@@ -10,7 +10,7 @@ const Header = () => {
     <header className='navbar'>
       <div className='welcomeSection'>
       <img src={send_a_message} alt='send a message'/>
-      <h1 className='welcomeText'>Welcome, Name</h1>
+      <h1 className='welcomeText'>Welcome,<br/> Name</h1>
       </div>
       <div className='searchBox'>
           <Search/>

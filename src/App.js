@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import Header from './components/ui/Header'
 import Footer from './components/ui/Footer'
 import Grid from './components/ui/Grid'
@@ -8,7 +8,7 @@ import SubMenu from './components/ui/SubMenu'
 
 const App = () => {
   // const [items, setItems] = useState([])
-  const [isLoading, setIsLoading] = useState(true)
+  // const [isLoading, setIsLoading] = useState(true)
   // const [query, setQuery] = useState('')
 
   // useEffect(() => {
@@ -24,24 +24,28 @@ const App = () => {
   //   fetchItems()
   // }, [query])
 
-  useEffect(() => {
-    setIsLoading(true)
-    setTimeout(() => {
-      setIsLoading(false)
-    }, 1000)
+  // useEffect(() => {
+  //   setIsLoading(true)
+  //   setTimeout(() => {
+  //     setIsLoading(false)
+  //   }, 1000)
 
-  }, [])
+  // }, [])
 
   return (
     <>
       <div className='container'>
+        <div id='fixedHeader'>
         <Header />
         {/* <img src={bg}/> */}
         <div className='menu'>
           <Menu />
           <SubMenu />
         </div>
-        <Grid isLoading={isLoading} />
+        </div>
+<div id='content'>
+          <Grid />
+  </div>
         {/* <Grid isLoading={isLoading} items={items}/> */}
       </div>
       <Footer />
