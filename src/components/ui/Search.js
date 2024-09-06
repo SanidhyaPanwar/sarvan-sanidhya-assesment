@@ -10,7 +10,7 @@ const Search = ({ getQuery }) => {
 
   return (
     <section className='search'>
-      <form>
+      <form id='searchForm'>
         <div className="left-inner-addon">
           <input type="text"
             placeholder='search by artwork, artist name ...'
