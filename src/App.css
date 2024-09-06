@@ -54,7 +54,6 @@ a {
   margin: 10px 0;
 }
 
-/* @media (max-width: 391px) { */
 
 .navbar {
   display: block;
@@ -497,5 +496,27 @@ input[type='text'] {
 .navbar {
   height: max-content;
 }
+@media (min-width: 782px) { 
+  .mainMenu {
+    width: 100%;
+  }
 
-/* } */
+  .subMenu {
+    width: 100%;
+  }
+
+  .navbar .welcomeSection .welcomeText {
+  left: 605px;
+  }
+  .cardInnerArtwork3 {
+    position: absolute;
+    top: 242px;
+    left: 379px;
+  }
+  
+  .cardInnerArtwork4 {
+    top: 242px;
+    left: 555px;
+  }
+  
+}
